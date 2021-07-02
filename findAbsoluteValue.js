@@ -29,3 +29,10 @@ console.log(findAbsoluteValue(testNum))
 const findAbsVal = (num)=> console.log((num)<0 ? (num)*-1 : (num))
 findAbsVal(num)
 */
+
+// OTHER WORKING ARROW FUNCTION FOR REFERENCE
+
+const calcAreaAlt = (width,height) => width*height
+const rectWidth = 11
+const rectHeight = 11
+console.log(calcAreaAlt(rectWidth,rectHeight))
